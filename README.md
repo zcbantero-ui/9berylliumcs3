@@ -1,4 +1,10 @@
-README.MD
-name:  Zanti Carlos B. Antero
-grade and section: 9-Beryllium
-funfact: i was featured as a background character in the movie padamlagan
+# Computer Science 3 Portfolio
+## Student Information
+**Name:** Zanti Carlos B. Antero
+**Section:** Beryllium
+**School Year:** 2026-2027
+
+---
+# Quarter 1
+## Activities
+### Computational Thinking Skills
