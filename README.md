@@ -8,3 +8,4 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
+**CT Skills Link** https://docs.google.com/document/d/1jZY9lMkalVjtmHiLolbyYzmynPJl0FUSgJaaj-boaHg/edit?usp=sharing
