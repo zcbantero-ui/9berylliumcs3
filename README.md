@@ -1,3 +1,5 @@
-**Name:** ZANTI CARLOS B. ANTER)
+**Name:** ZANTI CARLOS B. ANTERO
+
 **Section:** 9 - BERYLLIUM
+
 **Fun Fact:** I like to bike.
