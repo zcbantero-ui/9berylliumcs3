@@ -12,10 +12,10 @@
 ## Activities
 
 ### Computational Thinking Skills
-[View my Computational Thinking Exercise](q1/ctskillsBerylliumANTERO.md)
+[View my Computational Thinking Exercise](Q1/ctskillsBerylliumANTERO.md)
 
 ### Chinese Zodiac Program
-[View my Chinese Zodiac Program](q1/zodiacBerylliumANTERO.py)
+[View my Chinese Zodiac Program](Q1/zodiacBerylliumANTERO.py)
 
 ### OOP ILA
-[View my OOP ILA](q1/ila_OOP_BerylliumANTERO.md)
+[View my OOP ILA](Q1/ila_OOP_BerylliumANTERO.md)
