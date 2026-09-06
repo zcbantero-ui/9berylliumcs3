@@ -45,6 +45,6 @@ https://canva.link/8n8zarivomrc0l3
 ---
 
 ## STEP 6: 
-1. I've recently picked up cycling as a hobby, and because I use love to cycle.
+1. I've recently picked up cycling as a hobby, and because I love to cycle.
 2. Ride, because a bicycle is a vehicle and it's used for transportation. What use is a bike if you can't ride it.
 3. Repair, because when your bike breaks down, and requires reparation you could repair it yourself.
