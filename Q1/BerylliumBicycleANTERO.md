@@ -26,6 +26,7 @@ The class "Bicycles" represents the different types of bikes and in what situati
 | Type of Bike | String | This indicates what type the bike is. (examples: Fixie, RoadBike, MountainBike, TimeTrial) |
 | Frame Metal | String | This is the property in which declares what type of metal was used in the creation of the bike frame. (examples: Aluminum Alloy, Carbon) |
 | Frame Color | String | This property indicates what color the frame of the bike has |
+| Frame Brand | String | This propety helps us identify the brand name of the bike's frame |
 
 ---
 
@@ -48,3 +49,9 @@ https://canva.link/8n8zarivomrc0l3
 1. I've recently picked up cycling as a hobby, and because I love to cycle.
 2. Ride, because a bicycle is a vehicle and it's used for transportation. What use is a bike if you can't ride it.
 3. Repair, because when your bike breaks down, and requires reparation you could repair it yourself.
+
+---
+
+## Design Revision:
+Changes from my previous design:
+- I added a fourth property.
