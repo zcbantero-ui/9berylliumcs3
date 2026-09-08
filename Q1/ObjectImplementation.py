@@ -32,3 +32,8 @@ object1.repaint("Black")
 print("\n--- AFTER ---")
 print("Object 1:", object1.describe())
 print("Object 2:", object2.describe())
+
+---
+
+Proof run:
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/ANTERO-CLASS%20DATA%20SET.png)
