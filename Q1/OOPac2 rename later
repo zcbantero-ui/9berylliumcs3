@@ -1,1 +1,43 @@
+# UNDERSTANDING CLASSES AND OBJECTS
+## MY OBJECT-ORIENTED PROGRAM SEED SYSTEM
 
+---
+
+**Section:** 9-Beryllium                                                
+**Name:** Zanti Carlos B. Antero
+**Date:** Sep/08/2026
+
+---
+
+## STEP 1: REVIEW PREVIOUS DESIGN
+Changes from my previous design:
+- I added a fourth property.
+
+---
+
+## STEP 2: PUBLIC AND PRIVATE
+| ATTRIBUTE | DATA TYPE | VISIBILITY | REASON |
+| --- | --- | --- | --- |
+| Type of Bike | String | PUBLIC | Can be accessed to identify the bike. |
+| Frame Metal | String | PUBLIC | Can be accessed to know the frame material. |
+| Frame Color | String | PUBLIC | Can be accessed to identify the bike’s color. |
+| Frame Brand | String | PRIVATE | Protects the bike’s brand information. |
+
+---
+
+## STEP 3: UML DIAGRAM
++ Text version:
+```text
++--------------------------------------------+
+|                  BICYCLES                   |
++--------------------------------------------+
+| + type : string                             |
+| + frame_metal : string                      |
+| + frame_color : string                      |
+| + frame_brand : string                      |
++--------------------------------------------+
+| + shoot(shot_type : string)                 |
+| + get_shooting_stats()                      |
+| + pass_ball(teammate_name : string)         |
+| + play_defense()                            |
++--------------------------------------------+
