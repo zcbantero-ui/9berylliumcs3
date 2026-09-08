@@ -44,3 +44,12 @@ Changes from my previous design:
 ```
 
 ![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/ANTERO-CLASS%20DATA%20SET.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/ANTERO-CLASS%20DATA%20SET%20OBJECTS.png)
+
+--- 
+
+## SHORT ANALYSIS
+1. I made the attribute "frame_brand" private so that it couldn't directly be changed.
+2. The repaint() method changes the frame_color attribute, when called it should change color.
+3. My two bicycle objects had different information. When I changed the color of one bicycle, the other bicycle’s color stayed the same, showing that the objects are independent.
+4. The class diagram shows the blueprint of my BICYCLES class, including its attributes and actions. The object diagram shows actual bicycle objects and their specific information.
