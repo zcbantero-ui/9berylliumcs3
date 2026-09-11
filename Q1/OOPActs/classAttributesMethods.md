@@ -43,8 +43,8 @@ Changes from my previous design:
 +--------------------------------------------+
 ```
 
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/ANTERO-CLASS%20DATA%20SET.png)
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/ANTERO-CLASS%20DATA%20SET%20OBJECTS.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/ANTERO-CLASS%20DATA%20SET.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/ANTERO-CLASS%20DATA%20SET%20OBJECTS.png)
 
 --- 
 
