@@ -26,7 +26,7 @@
 [View my OOPAct](Q1/BerylliumBicycleANTERO.md)
 
 ### Object Implementation
-[View my OOPAct-ObjectImplementation](Q1/ObjecImplementation.py)
+[View my OOPAct-ObjectImplementation](Q1/OOPAct/ObjecImplementation.py)
 
 ### Class Attributes and Methods
-[View my OOPAct-ClassAttributesAndMethods](Q1/classAttributesMethods.md)
+[View my OOPAct-ClassAttributesAndMethods](Q1/OOPAct/classAttributesMethods.md)
