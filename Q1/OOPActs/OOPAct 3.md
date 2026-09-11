@@ -73,3 +73,7 @@
 ```
 ![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/BICYCLES%20and%20BIKE%20PARTS%20-%20ASSOCIATION.png)
 
+
+---
+
+## STEP 6: CLASS RELATIONSHIPS
