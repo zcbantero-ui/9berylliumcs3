@@ -17,20 +17,20 @@
 ---
 
 ## STEP 2: CREATE A NEW CLASS
-1. New class "PARTS".
+1. New class "BIKE PARTS".
 2. Bicycles are composed of many parts which are needed for the bike to function properly in correlation to the bike type.
 3. These two classes should be connected so that when a bike requires reparations, or renewal of gears/parts, the identification process would be much easier.
 
 ---
 
 ## STEP 3: IDENTIFY THE ASSOCIATION
-"BICYCLES contain PARTS"
+"BICYCLES contain BIKE PARTS"
 
 ---
 
 ## STEP 4: DECIDE MULTIPLICITY
 1. Option B - 1:many
-  BICYCLE 1 ----- PARTS many
+  BICYCLE 1 ----- BIKE PARTS many
 2. All bikes are composed of many parts. I chose this multiplicity because for every one bike there is always many parts present for it to function properly, you can't own a wheel and call it a bike.
 
 ---
@@ -59,7 +59,7 @@
                        |
                        *
 +--------------------------------------------+
-|                    PARTS                    |
+|                 BIKE PARTS                  |
 +--------------------------------------------+
 | + type : string                             |
 | + color : string                            |
@@ -71,3 +71,4 @@
 | + sell()                                    |
 +--------------------------------------------+
 ```
+![Click here]([https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/ANTERO-CLASS%20DATA%20SET.png](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/BICYCLES%20and%20BIKE%20PARTS%20-%20ASSOCIATION.png))
