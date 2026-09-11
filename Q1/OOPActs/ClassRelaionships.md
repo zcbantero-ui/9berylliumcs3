@@ -98,7 +98,7 @@
 ## STEP 13: ANALYSIS
 ### 1. BICYCLES and BIKE PARTS are connected through a "contains" relationship. This is because a bicycle is made up of several parts, and having the two classes connected makes it easy to identify which parts belong to which bike whenever a repair or a renewal of gears/parts is needed. In my implementation, each BICYCLE object keeps a list of the actual BIKE PRATS attached to it, so the bike can look up its own parts directly instead of the two classes existing separately.
   
-#### 2. I chose a 1:many multiplicity, where one bicycle is connected to many bike parts. I chose this because, again, every bike is composed of many parts working together in order to function properly. You can't own a single wheel and call it a bike, so a bicycle will always need more than one part attached to it.
+### 2. I chose a 1:many multiplicity, where one bicycle is connected to many bike parts. I chose this because, again, every bike is composed of many parts working together in order to function properly. You can't own a single wheel and call it a bike, so a bicycle will always need more than one part attached to it.
    
 ### 3. In my classRelationships.py file, the "BICYCLES" class stores a list attributes that holds the related "BIKE PARTS" objects. Whenever a part needs to be connected to a bike, a method is used to apend that BikePart object reference into the list, forming the actual relationship between the two classes.
 
