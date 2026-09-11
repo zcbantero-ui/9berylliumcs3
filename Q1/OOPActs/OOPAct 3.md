@@ -83,3 +83,9 @@
 
 ## STEP 11: TEST RUN
 ![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/TEST%20RUN.png)
+
+---
+
+## STEP 12: OBJECT RELATIONSHIP DIAGRAM
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/TEST%20RUN.png)
+
