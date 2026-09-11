@@ -1,5 +1,7 @@
 # Computer Science 3 Portfolio
 
+---
+
 ## Student Information
 **Name:** Zanti Carlos B. Antero
 **Section:** 9 - BERYLLIUM
@@ -22,7 +24,9 @@
 
 ### OOPAct
 [View my OOPAct](Q1/BerylliumBicycleANTERO.md)
-#### Object Implementation
+
+### Object Implementation
 [View my OOPAct-ObjectImplementation](Q1/ObjecImplementation.py)
-#### Class Attributes and Methods
+
+### Class Attributes and Methods
 [View my OOPAct-ClassAttributesAndMethods](Q1/classAttributesMethods.md)
