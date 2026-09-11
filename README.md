@@ -1,4 +1,4 @@
-# Computer Science 3 Portfolio
+# COMPUTER SCIENCE 3 PORTFOLIO
 
 ---
 
@@ -9,15 +9,19 @@
 
 ---
 
-# Quarter 1
+# 1st Quarter
 
-## Activities
+## Activities/ILAs
 
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](Q1/ctskillsBerylliumANTERO.md)
 
 ### Chinese Zodiac Program
 [View my Chinese Zodiac Program](Q1/zodiacBerylliumANTERO.py)
+
+---
+
+## OOP Acts (parts 1 - 3)
 
 ### OOP ILA
 [View my OOP ILA](Q1/ila_OOP_BerylliumANTERO.md)
