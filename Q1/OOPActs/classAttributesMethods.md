@@ -36,10 +36,10 @@ Changes from my previous design:
 | + frame_color : string                      |
 | + frame_brand : string                      |
 +--------------------------------------------+
-| + shoot(shot_type : string)                 |
-| + get_shooting_stats()                      |
-| + pass_ball(teammate_name : string)         |
-| + play_defense()                            |
+| + ride()                                    |
+| - repair(bike: string)                      |
+| - repaint(bike_color : string)              |
+| + sell()                                    |
 +--------------------------------------------+
 ```
 
