@@ -77,7 +77,7 @@
 ---
 
 ## STEP 6: CLASS RELATIONSHIPS
-[View my Chinese Zodiac Program](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/ClassRelationships.py)
+[View my Class Relationship.py](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/ClassRelationships.py)
 
 ---
 
