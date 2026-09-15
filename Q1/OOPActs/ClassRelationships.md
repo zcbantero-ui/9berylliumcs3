@@ -2,6 +2,7 @@
 ## MY OOP SEED SYSTEM 3
 ## MY PREVIOUS WORK
 [Part I - Classes and Objects](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/BerylliumBicycleANTERO.md)
+
 [Part II - Class Attributes and Methods](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/classAttributesMethods.md)
 
 ---
