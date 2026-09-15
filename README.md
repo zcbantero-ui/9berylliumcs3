@@ -34,3 +34,6 @@
 
 ### Class Attributes and Methods
 [View my OOPAct-ClassAttributesAndMethods](Q1/OOPActs/classAttributesMethods.md)
+
+### Class Relationships
+[View my OOP-ACT ClassRelationships](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/ClassRelationships.md)
