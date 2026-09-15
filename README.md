@@ -27,7 +27,7 @@
 [View my OOP ILA](Q1/ila_OOP_BerylliumANTERO.md)
 
 ### OOPAct
-[View my OOPAct](Q1/BerylliumBicycleANTERO.md)
+[View my BerylliumBicycleANTERO]([Q1/BerylliumBicycleANTERO.md](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/BerylliumBicycleANTERO.md))
 
 ### Object Implementation
 [View my OOPAct-ObjectImplementation](Q1/OOPActs/ObjectImplementation.py)
