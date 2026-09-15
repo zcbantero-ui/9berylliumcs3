@@ -3,9 +3,9 @@
 
 ---
 
-**Section:** 9-Beryllium                                                
-**Name:** Zanti Carlos B. Antero
-**Date:** Aug/17/2026
+**Section:** 9-Beryllium  
+**Name:** Zanti Carlos B. Antero  
+**Date:** Aug/17/2026  
 
 ---
 
