@@ -169,8 +169,9 @@ Extra:
 │ + tune_up()             │
 +-------------------------+
 ```
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%207.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Advance%20Class%20Relationships.png)
 
 ---
 
 ## STEP 10: TEST
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Advance%20Class%20Relationships.png)
