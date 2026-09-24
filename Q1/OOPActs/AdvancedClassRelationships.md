@@ -71,9 +71,7 @@ NEW Child Class: ELECTRIC BIKE
 ---
 
 ## STEP 5: PYTHON FILE
-[View my Advanced Class Relationships.py](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/AdvancedClassRelationships.py)
-
----
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%205.png)
 
 ## STEP 6: COMPOSITION OR AGGREGATION
 My chosen relationship: Composition
@@ -81,4 +79,5 @@ Class containing another object: BICYCLES
 Contained Object: Frame
 Explanation: The parent class BICYCLES creates the frame.
 
-## STEP 7: 
+## STEP 7: IMPLEMENT OWNERSHIP RELATIONSHIP
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%205.png)
