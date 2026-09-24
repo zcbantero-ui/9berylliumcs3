@@ -37,3 +37,6 @@
 
 ### Class Relationships
 [View my OOP-ACT ClassRelationships](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/ClassRelationships.md)
+
+### Advanced Class Relationships
+[View my OOP-ACT AdvancedClassRelationships](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/AdvancedClassRelationships.md)
