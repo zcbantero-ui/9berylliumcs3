@@ -1,4 +1,4 @@
-#Zanti Carlos B. Antero 9-BERYLLIUM
+# Zanti Carlos B. Antero 9-BERYLLIUM
 
 class Bicycles:
     def __init__(self, bike_type, frame_metal, frame_brand, frame_color):
@@ -7,58 +7,28 @@ class Bicycles:
         self.__frame_brand = frame_brand
         self.frame_color = frame_color
 
-        self.frame = Frame(frame_metal, frame_brand, frame_color)
-
-        self.bike_parts = []
-
-    def repaint(self, new_color):
-        self.frame_color = new_color
-        self.frame.color = new_color
-        print(f"{self.type} has been repainted to {self.frame_color}.")
-
     def get_frame_brand(self):
         return self.__frame_brand
 
     def describe(self):
-        return (f"Type: {self.type}, Frame Metal: {self.frame_metal}, "
-                f"Brand: {self.get_frame_brand()}, Color: {self.frame_color}")
+        print(f"Type: {self.type}")
+        print(f"Frame Metal: {self.frame_metal}")
+        print(f"Frame Brand: {self.get_frame_brand()}")
+        print(f"Frame Color: {self.frame_color}")
 
-    def add_part(self, part_reference):
-        self.bike_parts.append(part_reference)
-        print(f"Added '{part_reference.part_type}' to {self.type}.")
-
-    def list_parts(self):
-        print(f"Parts installed on {self.type} ({self.get_frame_brand()}):")
-        for part in self.bike_parts:
-            print(f"  - {part.part_type} | color: {part.color} | quantity: {part.quantity}")
-
-
-class Frame:
-    def __init__(self, metal, brand, color):
-        self.metal = metal
-        self.brand = brand
-        self.color = color
-
-    def __str__(self):
-        return f"{self.color} {self.metal} frame ({self.brand})"
+    def repaint(self, new_color):
+        self.frame_color = new_color
+        print(f"{self.type} has been repainted to {new_color}.")
 
 
 class ElectricBike(Bicycles):
-    def __init__(self, bike_type, frame_metal, frame_brand, frame_color,
-                 battery_capacity_wh, max_speed_kph):
+    def __init__(self, bike_type, frame_metal, frame_brand, frame_color, battery):
         super().__init__(bike_type, frame_metal, frame_brand, frame_color)
-        self.battery_capacity_wh = battery_capacity_wh
-        self.max_speed_kph = max_speed_kph
-        self.battery_level = 100
+        self.battery = battery
 
     def describe(self):
-        base_description = super().describe()
-        return (f"{base_description}, Battery: {self.battery_capacity_wh}Wh, "
-                f"Max Speed: {self.max_speed_kph}kph")
-
-    def drain_battery(self, percent):
-        self.battery_level = max(0, self.battery_level - percent)
-        print(f"{self.type} battery is now at {self.battery_level}%.")
+        super().describe()
+        print(f"Battery: {self.battery} Wh")
 
 
 class BikeParts:
@@ -67,23 +37,47 @@ class BikeParts:
         self.color = color
         self.quantity = quantity
 
-    def install(self, quantity):
-        print(f"Installing {quantity} unit(s) of {self.part_type}.")
-
-    def remove(self, quantity):
-        print(f"Removing {quantity} unit(s) of {self.part_type}.")
-
-    def purchase(self, quantity):
-        self.quantity += quantity
-        print(f"Purchased {quantity} more {self.part_type}(s). New quantity: {self.quantity}")
-
-    def sell(self):
-        print(f"{self.part_type} has been sold.")
+    def purchase(self, amount):
+        self.quantity += amount
+        print(f"Purchased {amount} {self.part_type}(s).")
+        print(f"New quantity: {self.quantity}")
 
 
 class Mechanic:
     def __init__(self, name):
         self.name = name
 
-    def tune_up(self, bicycle: Bicycles):
-        print(f"{self.name} is tuning up the {bicycle.type} ({bicycle.frame})... done.")
+    def tune_up(self, bicycle):
+        print(f"{self.name} is tuning up the {bicycle.type}.")
+
+
+# TESTING THE PROGRAM
+
+bike1 = Bicycles("Mountain Bike", "Aluminum", "Trek", "Black")
+
+print("=== BICYCLE ===")
+bike1.describe()
+
+print()
+bike1.repaint("Red")
+
+print()
+ebike1 = ElectricBike("Electric Bike", "Carbon", "Giant", "Blue", 500)
+
+print("=== ELECTRIC BIKE ===")
+ebike1.describe()
+
+print()
+part1 = BikeParts("Pedal", "Black", 2)
+
+print("=== BIKE PART ===")
+print(f"Part: {part1.part_type}")
+print(f"Color: {part1.color}")
+print(f"Quantity: {part1.quantity}")
+
+print()
+part1.purchase(2)
+
+print()
+mechanic1 = Mechanic("Carlos")
+mechanic1.tune_up(bike1)
