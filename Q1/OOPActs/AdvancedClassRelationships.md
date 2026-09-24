@@ -231,8 +231,13 @@ Extra:
 │ + list_parts()           │
 +--------------------------+
 ```
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/advancedClassDiagram.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/advancedObjectDiagram.png)
 
 ---
 
 ## STEP 12: 
+1. I chose ElectricBike as the child class of Bicycles because an electric bike is a type of bicycle. An ElectricBike has the same basic properties as a Bicycles object, such as type, frame, and color. Other than that also has an additional attribute, which is the battery.
+2. Inheritance allowed ElectricBike to reuse the attributes and methods already written in the Bicycles class. ElectricBike can inherit type, frame_metal, frame_color, repaint(), and get_frame_brand(). This means I did not have to rewrite the same code inside the ElectricBike class.
+3. My Bicycles and Frame relationship is Composition because the Bicycles object creates its own Frame object. The frame is created inside the Bicycles constructor using self.frame = Frame(something). This means the frame is part of its structure.
+4. Association means that two classes are connected because one object uses or interacts with another object. The Mechanic can interact with a Bicycles object by tuning it up. Inheritance and composition create stronger relationships where ElectricBike is a type of Bicycles and Bicycles owns its Frame.
+5. My design follows the DRY principle by avoiding repeated code between Bicycles and ElectricBike. Instead of rewriting the bicycle attributes and methods, ElectricBike inherits them from Bicycles. The Frame class also keeps frame-related information in one place instead of repeating it throughout the program.
