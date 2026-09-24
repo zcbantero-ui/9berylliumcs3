@@ -81,3 +81,35 @@ part1.purchase(2)
 print()
 mechanic1 = Mechanic("Carlos")
 mechanic1.tune_up(bike1)
+
+print("=== TEST 1: INHERITANCE ===")
+
+ebike = ElectricBike(
+    "Electric Bike",
+    "Aluminum",
+    "Giant",
+    "Blue",
+    500,
+    45
+)
+
+print(ebike.describe())
+
+print()
+print("=== TEST 2: COMPOSITION ===")
+
+bike = Bicycles(
+    "Mountain Bike",
+    "Aluminum",
+    "Trek",
+    "Black"
+)
+
+print(f"Bike: {bike.type}")
+print(f"Frame: {bike.frame}")
+
+print()
+print("=== TEST 3: REPAINT ===")
+
+bike.repaint("Red")
+print(f"Updated frame: {bike.frame}")
