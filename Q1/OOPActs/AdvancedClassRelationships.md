@@ -169,7 +169,7 @@ Extra:
 │ + tune_up()             │
 +-------------------------+
 ```
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Advance%20Class%20Relationships.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/advancedClassDiagram.png)
 
 ---
 
@@ -178,4 +178,61 @@ Extra:
 
 ---
 
-## STEP 11: 
+## STEP 11: OBJECT RELATIONSHIP DIAGRAM
++ Text version:
+```text
++---------------------------+
+|          bike1            |
+|       Bicycles object     |
++---------------------------+
+| type: MountainBike        |
+| frame_metal: Carbon       |
+| frame_brand: Giant        |
+| frame_color: Blue         |
++---------------------------+
+            ◆
+            │ owns
+            ▼
++---------------------------+
+|          Frame            |
++---------------------------+
+| metal: Carbon             |
+| brand: Giant              |
+| color: Blue               |
++---------------------------+
+
+
++---------------------------+
+|        electric1          |
+|     ElectricBike object   |
++---------------------------+
+| type: ElectricBike        |
+| frame_metal: Carbon       |
+| frame_brand: Giant        |
+| frame_color: Blue         |
+| battery: 500 Wh           |
++---------------------------+
+            │
+            │ inherits from
+            ▼
++--------------------------+
+│       BICYCLES           │      
++--------------------------+
+│ - type                   │
+│ - frame_metal            │
+│ - frame_brand            │
+│ - frame_color            │
+│ - bike_parts             │
+│ - frame                  │
++--------------------------+
+│ + repaint()              │
+│ + describe()             │
+│ + add_part()             │
+│ + list_parts()           │
++--------------------------+
+```
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/advancedClassDiagram.png)
+
+---
+
+## STEP 12: 
