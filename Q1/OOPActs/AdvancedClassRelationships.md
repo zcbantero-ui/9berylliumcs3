@@ -79,5 +79,98 @@ Class containing another object: BICYCLES
 Contained Object: Frame
 Explanation: The parent class BICYCLES creates the frame.
 
+---
+
 ## STEP 7: IMPLEMENT OWNERSHIP RELATIONSHIP
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%205.png)
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%207.png)
+
+---
+
+## STEP 8: OPTIONAL
+
+---
+
+## STEP 9: ADVANCED UML
++ Text version:
+```text
++-------------------------+
+│       BICYCLES          │      
++-------------------------+
+│ - type                  │
+│ - frame_metal           │
+│ - frame_brand           │
+│ - frame_color           │
+│ - bike_parts            │
+│ - frame                 │
++-------------------------+
+│ + repaint()             │
+│ + describe()            │
+│ + add_part()            │
+│ + list_parts()          │
++-------------------------+
+            ◆
+            │
+            │ Composition
+            ▼
++-------------------------+
+│         Frame           │
++-------------------------+
+│ - metal                 │
+│ - brand                 │
+│ - color                 │
++-------------------------+
+│ + __str__()             │
++-------------------------+
+
+
++-------------------------+
+│      ElectricBike       │
++-------------------------+
+│ - battery               │
++-------------------------+
+│ + describe()            │
++-------------------------+
+            │         
+            │
+            △  
++-------------------------+
+│       BICYCLES          │      
++-------------------------+
+│ - type                  │
+│ - frame_metal           │
+│ - frame_brand           │
+│ - frame_color           │
+│ - bike_parts            │
+│ - frame                 │
++-------------------------+
+│ + repaint()             │
+│ + describe()            │
+│ + add_part()            │
+│ + list_parts()          │
++-------------------------+
+
+Extra:
++-------------------------+
+│       BikeParts         │
++-------------------------+
+│ - part_type             │
+│ - color                 │
+│ - quantity              │
++-------------------------+
+│ + remove()              │
+│ + purchase()            │
+│ + sell()                │
++-------------------------+
++-------------------------+
+│        Mechanic         │
++-------------------------+
+│ - name                  │
++-------------------------+
+│ + tune_up()             │
++-------------------------+
+```
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%207.png)
+
+---
+
+## STEP 10: TEST
