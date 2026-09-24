@@ -1,11 +1,24 @@
 # Zanti Carlos B. Antero 9-BERYLLIUM
 
+
+class Frame:
+    def __init__(self, metal, brand, color):
+        self.metal = metal
+        self.brand = brand
+        self.color = color
+
+    def __str__(self):
+        return f"{self.color} {self.metal} frame ({self.brand})"
+
+
 class Bicycles:
     def __init__(self, bike_type, frame_metal, frame_brand, frame_color):
         self.type = bike_type
         self.frame_metal = frame_metal
         self.__frame_brand = frame_brand
         self.frame_color = frame_color
+
+        self.frame = Frame(frame_metal, frame_brand, frame_color)
 
     def get_frame_brand(self):
         return self.__frame_brand
@@ -18,6 +31,7 @@ class Bicycles:
 
     def repaint(self, new_color):
         self.frame_color = new_color
+        self.frame.color = new_color
         print(f"{self.type} has been repainted to {new_color}.")
 
 
@@ -43,44 +57,13 @@ class BikeParts:
         print(f"New quantity: {self.quantity}")
 
 
+# MECHANIC CLASS
 class Mechanic:
     def __init__(self, name):
         self.name = name
 
     def tune_up(self, bicycle):
         print(f"{self.name} is tuning up the {bicycle.type}.")
-
-
-# TESTING THE PROGRAM
-
-bike1 = Bicycles("Mountain Bike", "Aluminum", "Trek", "Black")
-
-print("=== BICYCLE ===")
-bike1.describe()
-
-print()
-bike1.repaint("Red")
-
-print()
-ebike1 = ElectricBike("Electric Bike", "Carbon", "Giant", "Blue", 500)
-
-print("=== ELECTRIC BIKE ===")
-ebike1.describe()
-
-print()
-part1 = BikeParts("Pedal", "Black", 2)
-
-print("=== BIKE PART ===")
-print(f"Part: {part1.part_type}")
-print(f"Color: {part1.color}")
-print(f"Quantity: {part1.quantity}")
-
-print()
-part1.purchase(2)
-
-print()
-mechanic1 = Mechanic("Carlos")
-mechanic1.tune_up(bike1)
 
 print("=== TEST 1: INHERITANCE ===")
 
@@ -89,11 +72,11 @@ ebike = ElectricBike(
     "Aluminum",
     "Giant",
     "Blue",
-    500,
-    45
+    500
 )
 
-print(ebike.describe())
+ebike.describe()
+
 
 print()
 print("=== TEST 2: COMPOSITION ===")
@@ -108,8 +91,10 @@ bike = Bicycles(
 print(f"Bike: {bike.type}")
 print(f"Frame: {bike.frame}")
 
+
 print()
-print("=== TEST 3: REPAINT ===")
+print("=== EXTRA TEST: INHERITED METHOD ===")
 
 bike.repaint("Red")
+
 print(f"Updated frame: {bike.frame}")
