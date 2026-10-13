@@ -12,20 +12,22 @@ class BankAccount:
     
     def set_accountbalance(self, newaccountbalance):
         print(f"Update balance to {newaccountbalance}")
-        if newbalance < 0:
+        if newaccountbalance < 0:
             print("Balance cannot be negative. Balance not updated.")
         else:
-            self.__balance = newaccountbalance
-    
+            self.__accountbalance = newaccountbalance
+
+    @property 
     def get_accountnumber(self):
         return self.__accountnumber
-        pin = "password123"
-        enterPin = input("Enter your pin: ")
-        if enterPassword == password:
-            return self.__accountnumber
-        else:
-            print("Wrong pin, access denied.")
-            return None
 
-    def get_balance(self):
-        return self.__balance
+    @property
+    def get_accountbalance(self):
+        return self.__accountbalance
+
+a1 = BankAccount("12345", 1000)
+
+print("Account Number:", a1.get_accountnumber)
+print("Balance:", a1.get_accountbalance)
+
+print(a1.set_acountbalance(-100))
