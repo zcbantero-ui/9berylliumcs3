@@ -40,3 +40,10 @@
 
 ### Advanced Class Relationships
 [View my OOP-ACT AdvancedClassRelationships](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/OOPActs/AdvancedClassRelationships.md)
+
+---
+
+# 2nd Quarter
+
+### SG 8 - ENCAPSULATION
+[View my SG8 - Encapsulation](Q2/SG8-Encapsulation.py)
