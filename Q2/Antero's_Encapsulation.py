@@ -25,9 +25,9 @@ class BankAccount:
     def get_accountbalance(self):
         return self.__accountbalance
 
-a1 = BankAccount("12345", 1000)
+Account1 = BankAccount("12345", 1000)
 
-print("Account Number:", a1.get_accountnumber)
-print("Balance:", a1.get_accountbalance)
+print("Account Number:", Account1.get_accountnumber)
+print("Balance:", Account1.get_accountbalance)
 
-print(a1.set_acountbalance(-100))
+print(Account1.get_acountbalance(-100))
