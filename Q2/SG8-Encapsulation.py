@@ -30,4 +30,4 @@ Account1 = BankAccount("12345", 1000)
 print("Account Number:", Account1.get_accountnumber)
 print("Balance:", Account1.get_accountbalance)
 
-print(Account1.get_acountbalance(-100))
+print(Account1.get_accountbalance(-100))
