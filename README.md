@@ -47,3 +47,6 @@
 
 ### SG 8 - ENCAPSULATION
 [View my SG8 - Encapsulation](Q2/SG8-Encapsulation.py)
+
+### SG 9 - INHERITANCE
+[View my SG9 - Inheritance](Q2/SG9-Inheritance.py)
