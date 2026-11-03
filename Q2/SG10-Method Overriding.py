@@ -2,44 +2,44 @@
 # 9 - Beryllium
 # Nov/04/2026
 
-class Animals:
-    def __init__(self, eat, make_sound):
+class Animals: # set the parent class
+    def __init__(self, eat, make_sound): # initialize the attributes
+        self.name = name
         self.Eat = eat
         self.Make_sound = make_sound
-        self.name = name
         
-    def eat(self):
+    def eat(self): # Eat function
         print(f"{self.name} chows on {self.Eat}")
     
-    def make_sound(self):
+    def make_sound(self): # Noise function
         print(f"{self.name} {self.Make_sound}")
 
 
-class Lion(Animals):
+class Lion(Animals): # Set child class for lion
     def __init__(self, name):
-        super().__init__("T-bone steak", "ROAAR", name)
+        super().__init__(name, "fresh meat", "roars loudly!") 
 
-class Elephant(Animals):
+class Elephant(Animals): # child class for elephant
     def __init__(self, name):
-        super().__init__("Peanuts", "TOOOT", name)
+        super().__init__(name, "grass and fruits", "trumpets!")
 
-class Ape(Animals):
+class Ape(Animals): # child class for ape
     def __init__(self, name):
-        super().__init__("Bananas", "OOO OOO, AAA AAA", name)
+        super().__init__(name, "bananas", "chatters!")
 
 
 Lion = Lion("Simba")
 Elephant = Elephant("Dumbo")
 Ape = Ape("George")
 
-Lion.make_sound
-Lion.eat
+print (f"{Lion.name} eats {Lion.eat}")
+print (f"{Lion.name}  {Lion.make_sound}")
 print("----------------------")
 
-Elephant.make_sound
-Elephant.eat
+print (f"{Elephant.name} eats {Elephant.eat}")
+print (f"{Elephant.name}  {Elephant.make_sound}")
 print("----------------------")
 
-Ape.make_sound
-Ape.eat
+print (f"{Ape.name} eats {Ape.eat}")
+print (f"{Ape.name}  {Ape.make_sound}")
 print("----------------------")
