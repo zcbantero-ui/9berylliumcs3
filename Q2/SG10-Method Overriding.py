@@ -9,15 +9,17 @@ class Animals: # set the parent class
         self.Make_sound = make_sound
         
     def eat(self): # Eat function
-        print(f"{self.name} chows on {self.Eat}")
+        print("Eats")
     
     def make_sound(self): # Noise function
-        print(f"{self.name} {self.Make_sound}")
+        print("Makes sounds")
 
 
 class Lion(Animals): # Set child class for lion
     def __init__(self, name):
-        super().__init__(name, "fresh meat", "roars loudly!") 
+        super().__init__(name) 
+    def eat(self):
+        print("eats fresh meat")
 
 class Elephant(Animals): # child class for elephant
     def __init__(self, name):
