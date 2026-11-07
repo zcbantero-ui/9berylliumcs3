@@ -45,14 +45,14 @@ Elephant = Elephant("Dumbo")
 Ape = Ape("George")
 
 #Output stuff, basically this part of the code SHOULD produce the required output.
-print(f"{Lion.name()} {Lion.eat()}")
-print(f"{Lion.name()} {Lion.make_sound()}")
+print(f"{Lion.name} {Lion.eat()}")
+print(f"{Lion.name} {Lion.make_sound()}")
 print("----------------------")
 
-print(f"{Elephant.name()} {Elephant.eat()}")
-print(f"{Elephant.name()} {Elephant.make_sound()}")
+print(f"{Elephant.name} {Elephant.eat()}")
+print(f"{Elephant.name} {Elephant.make_sound()}")
 print("----------------------")
 
-print(f"{Ape.name()} {Ape.eat()}")
-print(f"{Ape.name()} {Ape.make_sound()}")
+print(f"{Ape.name} {Ape.eat()}")
+print(f"{Ape.name} {Ape.make_sound()}")
 print("----------------------")
