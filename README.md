@@ -50,3 +50,6 @@
 
 ### SG 9 - INHERITANCE
 [View my SG9 - Inheritance](Q2/SG9-Inheritance.py)
+
+### SG 10 - METHOD OVERRIDING
+[View my SG10 - Method Overriding]()
