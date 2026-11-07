@@ -52,4 +52,4 @@
 [View my SG9 - Inheritance](Q2/SG9-Inheritance.py)
 
 ### SG 10 - METHOD OVERRIDING
-[View my SG10 - Method Overriding]()
+[View my SG10 - Method Overriding](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q2/SG10-Method%20Overriding.py)
