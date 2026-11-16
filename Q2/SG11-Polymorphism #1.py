@@ -25,22 +25,31 @@ class Patient:
 
   def calculate_bill(self):
     return self.get_ammount_bill()
-
+    
+  def patient_type(self):
+    print("Patient type: PhilHealth Member")
+    
   def display_data(self):
     print(f"Patient Name: {self.get_name()}")
+    self.patient_type()
     print(f"Original Bill: {self.get_ammount_bill()}:,.2f")
     print(f"Patient Name: {self.calculate_bill()}:,.2f")
     print("")
-    
+
 
 class Senior_Patient(Patient):
   def calculate_bill(self):
     return self.get_ammount_bill() * (1 - 0.20)
-    
+
+  def patient_type(self):
+      print("Patient type: Senior Patient")
+
 class Philhealth_Patient(Patient):
   def calculate_bill(self):
     return self.get_ammount_bill() * (1 - 0.15)
-
+    
+  def patient_type(self):
+      print("Patient type: PhilHealth Member")
 
 
 regular_patient = Patient("Juan Dela Cruz", 15000)
