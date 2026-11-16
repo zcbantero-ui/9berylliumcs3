@@ -17,6 +17,8 @@
     move() in the Car class prints "The car drives on the road."
     move() in the Boat class prints "The boat sails on water."
     move() in the Drone class prints "The drone flies in the sky."
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q1/Images/OOPActProof/Step%205.png)
+
  ### b. Has a function named start_trip(vehicle), with a parameter vehicle, that simply calls the move() method: vehicle.move().
  
  ### c. Creates one object of each class.
