@@ -17,14 +17,16 @@
     move() in the Car class prints "The car drives on the road."
     move() in the Boat class prints "The boat sails on water."
     move() in the Drone class prints "The drone flies in the sky."
-![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q2/Images/SG%2011%20ss.png)
 
  ### b. Has a function named start_trip(vehicle), with a parameter vehicle, that simply calls the move() method: vehicle.move().
  
  ### c. Creates one object of each class.
  
  ### d. Calls the start_trip() method for each object.
-
+ 
+![Click here](https://github.com/zcbantero-ui/9berylliumcs3/blob/main/Q2/Images/SG%2011%20ss.png) 
 ---
 
-4. How does the code in 2.2 demonstrate polymorphism?
+## 4. How does the code in 2.2 demonstrate polymorphism?
+  ### Answer:
+    start_trip(vehicle) uses the same move() function for every object, allowing each vehicle to behave differently through duck typing without needing a shared parent class.
